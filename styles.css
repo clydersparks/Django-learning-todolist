@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    padding: 30px 15%;
+    display: flex;
+    justify-content: center;
+    background-color: #EC7C8C;
+}
+
+main {
+    width: 80%;
+}
+
+
+
+.title{
+    width: 50%;
+    margin: 30px auto;
+    background-color: rgba(204, 197, 197, 0.486);
+    backdrop-filter: blur(8px);
+    box-shadow: 0 0 10px #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+form{
+    width: 70%;
+    padding: 10px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+}
+
+form input{
+    background-color: transparent;
+    border: 1px solid rgb(218, 209, 209);
+    font-size: 20px;
+    outline: none;
+    padding: 15px 10px;
+    width: 0;
+    border-right: 0;
+    color: white;
+}
+
+.clicked{
+    width: 75%;
+    transition: all 0.5s ease;
+}
+
+::placeholder{
+    color: white;
+}
+
+form button{
+   
+    padding: 10px 12px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button i{
+    font-size: 35px;
+}
+
+.todo-container{
+    width: 75%;
+    background-color: rgba(255, 255, 255, 0.301);
+    backdrop-filter: blur(4px);
+    border: 2px dashed white;
+    margin: 30px auto;
+    padding: 10px;
+    max-height: 65%;
+    border-radius: 10px;
+    overflow-y: auto;
+    scrollbar-color: transparent transparent;
+}
+
+.todo-div{
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px auto;
+}
+
+.todo-div h2,h3{
+    color: white;
+}
+
+.todo-div h3{
+    cursor: pointer;
+}
